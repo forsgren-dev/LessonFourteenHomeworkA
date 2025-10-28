@@ -14,7 +14,8 @@ namespace LessonFourteenHomework.Services
             Console.WriteLine("Namn: ".PadRight(20) + "Ålder: ");
             foreach (Person p in Person.PersonList)
             {
-                Console.WriteLine(p.Name.PadRight(20) + p.Age.ToString().PadLeft(6));
+                Console.WriteLine(p.Name.PadRight(20) + 
+                    p.Age.ToString().PadLeft(6));
             }
         }
     }
